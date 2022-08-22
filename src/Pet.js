@@ -3,7 +3,7 @@ const Pet = (props) => {
 
   let hero = "http://pets-images.dev-apis.com/pets/none.jpg";
   if (images.length) {
-    hero = images[0];
+    hero = images;
   }
 
   return (
